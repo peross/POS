@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS", "POS\POS.csproj", "{C1097C18-301C-4275-AC37-A63FBC8F5FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFramework", "DbFramework\DbFramework.csproj", "{8CE63A1A-078B-4152-8004-01F9FACE8D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1097C18-301C-4275-AC37-A63FBC8F5FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1097C18-301C-4275-AC37-A63FBC8F5FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1097C18-301C-4275-AC37-A63FBC8F5FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1097C18-301C-4275-AC37-A63FBC8F5FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE63A1A-078B-4152-8004-01F9FACE8D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE63A1A-078B-4152-8004-01F9FACE8D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE63A1A-078B-4152-8004-01F9FACE8D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE63A1A-078B-4152-8004-01F9FACE8D39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62839FAA-9E9B-4DEC-A2D7-E3646212877E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProdajaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="JedinicaMjere">
+    <Key>
+      <PropertyRef Name="SifJM" />
+    </Key>
+    <Property Name="SifJM" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Naziv" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kategorije">
+    <Key>
+      <PropertyRef Name="IdKategorije" />
+    </Key>
+    <Property Name="IdKategorije" Type="int" Nullable="false" />
+    <Property Name="NazivKategorije" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Uloge">
+    <Key>
+      <PropertyRef Name="IdUloge" />
+    </Key>
+    <Property Name="IdUloge" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Naziv" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ProdajaModelStoreContainer">
+    <EntitySet Name="JedinicaMjere" EntityType="Self.JedinicaMjere" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kategorije" EntityType="Self.Kategorije" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Uloge" EntityType="Self.Uloge" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

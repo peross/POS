@@ -1,0 +1,6 @@
+C:\Users\Admin\source\repos\POS\DbFramework\bin\Debug\DbFramework.dll
+C:\Users\Admin\source\repos\POS\DbFramework\bin\Debug\DbFramework.pdb
+C:\Users\Admin\source\repos\POS\DbFramework\obj\Debug\DbFramework.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\POS\DbFramework\obj\Debug\DbFramework.dll
+C:\Users\Admin\source\repos\POS\DbFramework\obj\Debug\DbFramework.pdb
+C:\Users\Admin\source\repos\POS\DbFramework\obj\Debug\DbFramework.csprojAssemblyReference.cache
