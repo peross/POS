@@ -1,7 +1,7 @@
 # POS
 Point Of Sale
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A1oZ9KOBTZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/A1oZ9KOBTZ4/0.jpg)](https://www.youtube.com/watch?v=A1oZ9KOBTZ4)
 
 ![POS1](https://user-images.githubusercontent.com/58300638/69850514-c09eca80-127f-11ea-81bc-763848cfa6bd.png)
 
